@@ -1,0 +1,14 @@
+.login__container{
+    border: 2px solid #000000;
+    padding: 10vw 4vw;
+    margin: 200px 750px;
+}
+
+.titulo__container{
+    text-align: center;
+    
+}
+
+.corpo__container{
+    text-align: center;
+}

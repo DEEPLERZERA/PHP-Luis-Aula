@@ -1,0 +1,48 @@
+.login {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 170px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 50px;
+}
+
+#name {
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#password {
+    margin-top: 100px;
+    margin-left:26px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+#login {
+    margin-top: 100px;
+}
+
+#button {
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#button:hover {
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    margin-bottom: 200px;    
+
+}
