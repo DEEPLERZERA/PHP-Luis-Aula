@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    height: 97.5vh;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.formularioA {
+    background-color: greenyellow;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formularioB {
+    background-color: pink;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    font-style: oblique;
+}
