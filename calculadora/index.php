@@ -17,7 +17,7 @@
                         print("<input type='number' name='nmbNumber$i' id=''><br>");
                     }
                 ?>
-                <input type="submit" value="Calcular">
+                <input type="submit" value="calcular">
             </form>
         </div>
     </div>

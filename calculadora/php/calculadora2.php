@@ -10,12 +10,15 @@
 <body>
     <div class="container">
         <div class="formulario3b">
-                <?php  
-                    require_once "calculadora.php";  //inclui o arquivo calculadora.php
-                    $calculadora = new Calc($_GET['nmbNumber1'],$_GET['nmbNumber2']); //cria um objeto da classe Calc
-                    print("O valor de a é {$calculadora->getA()}<br>");   //imprime o valor de a
-                    print("O valor de B é {$calculadora->getB()}<br>");   //imprime o valor de b
-                    $calculadora->somar($calculadora->getA(),$calculadora->getB()); //chama o método somar
+                <?php
+                    require_once "calculadora.php";
+                    $calculadora = new Calc($_GET['nmbNumber1'],$_GET['nmbNumber2']);
+                    print("O valor de a é {$calculadora->getA()}<br>");
+                    print("O valor de B é {$calculadora->getB()}<br>"); 
+                    $calculadora->somar($calculadora->getA(),$calculadora->getB());
+                    $calculadora->subtrair($calculadora->getA(),$calculadora->getB());
+                    $calculadora->multiplicacao($calculadora->getA(),$calculadora->getB());
+                    $calculadora->divisao($calculadora->getA(),$calculadora->getB());
                 ?>
             </form>
         </div>

@@ -6,17 +6,35 @@
         private $c;
 
 
-         public function __construct(float $a, float $b) { //método construtor
+         public function __construct(float $a, float $b) {
                 $this->a = $a;
                 $this->b = $b;
             }
         
 
-        public function somar(float $a, float $b) { //método somar
+        public function somar(float $a, float $b) {
              $this->setC($this->getA()+$this->getB());
-             print("O valor de C é = {$this->getC()}");
+             print("O valor da soma de C é = {$this->getC()}<br>");
              return $this;
         }
+
+		public function subtrair(float $a, float $b) {
+			$this->setC($this->getA()-$this->getB());
+			print("O valor da subtração de C é = {$this->getC()}<br>");
+            return $this;
+		}
+
+		public function multiplicacao(float $a, float $b) {
+			$this->setC($this->getA()*$this->getB());
+			print("O valor da multiplicação de C é = {$this->getC()}<br>");
+            return $this;
+		}
+
+		public function divisao(float $a, float $b) {
+			$this->setC($this->getA()/$this->getB());
+			print("O valor da divisão de C é = {$this->getC()}");
+            return $this;
+		}
     
 
        
