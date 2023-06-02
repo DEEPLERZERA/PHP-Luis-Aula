@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./image/duvida.png" type="image/x-icon">
     <title>FICHA</title>
 </head>
 <body>
@@ -29,8 +30,6 @@
                     <input type="hidden" name="confirmar" value="A">
                     <input type="submit" value="Confirmar">
                 </form>
-                        
-                   
             </div>            
         </div>
     </div>
