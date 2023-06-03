@@ -28,7 +28,7 @@
                 <!-- Formulário com o botão de confirmação -->
                 <form class = "hellPost" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
                     <input type="hidden" name="confirmar" value="A">
-                    <input type="submit" value="Confirmar">
+                    <input class= "button" type="submit" value="Confirmar">
                 </form>
             </div>            
         </div>
