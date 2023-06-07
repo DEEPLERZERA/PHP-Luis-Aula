@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Open+Sans:wght@600&family=Secular+One&display=swap'); 
   body {
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
@@ -26,6 +27,7 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     color: white;
+    font-family: 'Secular One', sans-serif;
 }
 
 .centralDiv {
@@ -82,6 +84,8 @@
     font-family: fantasy;
     color: khaki;
     transition: 0.5s;
+    margin-top: 820px;
+    margin-left: 500px
     
 
 
@@ -102,11 +106,68 @@
     font-family: fantasy;
     color: khaki;
     transition: 0.5s;
-    margin-top: 700px;
+    margin-top: 20px;
     margin-left: 50px
 }
 
 .button:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    width: 15vw;
+}
+
+.button2 {
+    background-color: brown;
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: fantasy;
+    color: khaki;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 80px
+}
+
+.button2:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    width: 15vw;
+}
+
+.button3 {
+    background-color: brown;
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: fantasy;
+    color: khaki;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 110px
+}
+
+.button3:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    width: 15vw;
+}
+
+.button4 {
+    background-color: brown;
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: fantasy;
+    color: khaki;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 140px
+}
+
+.button4:hover {
     background-color: rgb(255, 0, 0);
     color: white;
     cursor: pointer;

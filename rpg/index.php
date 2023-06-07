@@ -26,9 +26,24 @@
                 ?>
 
                 <!-- Formulário com o botão de confirmação -->
-                <form class = "hellPost" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
+                <form class = "hellPost" method="POST" action="php/criar.php">
                     <input type="hidden" name="confirmar" value="A">
-                    <input class= "button" type="submit" value="Confirmar">
+                    <input class= "button" type="submit" value="Criar">
+                </form>
+
+                <form class = "hellPost" method="POST" action="php/editar.php">
+                    <input type="hidden" name="confirmar" value="A">
+                    <input class= "button2" type="submit" value="Editar">
+                </form>
+
+                <form class = "hellPost" method="POST" action="php/deletar.php">
+                    <input type="hidden" name="confirmar" value="A">
+                    <input class= "button3" type="submit" value="Deletar">
+                </form>
+
+                <form class = "hellPost" method="POST" action="php/visualizar.php">
+                    <input type="hidden" name="confirmar" value="A">
+                    <input class= "button4" type="submit" value="Visualizar">
                 </form>
             </div>            
         </div>
