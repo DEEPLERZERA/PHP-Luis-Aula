@@ -13,13 +13,19 @@
         <h1>Ficha RPG</h1>
         <div class="centralDiv">
             <div class="formHell">    
-                <div class = "formHell2">            
-                 <form class ="formHellPost" action="../index.php" method="delete">    
-                    <label for = "btnForm2" class = "text1"> Digite o ID para deletar </label>            
-                    <input type = "text" class = "btnForm2">
-                </div>
-                <input class = "btnForm3" type="submit" value="Deletar">
-                </form>
+            <form class ="formHellPost" action="../index.php" method="post"> 
+            <?php 
+                        for ($i=1;$i<2;$i++){  
+                            switch ($i){
+                                case '1':
+                                    echo("<label class = 'text1' for='txtN$i'>Digite ID</label>");                                    
+                                     break;
+                            }                                                      
+                            echo("<input class = 'textForm2' type='text' name='txtN$i'>");                           
+                        }                        
+                    ?>
+                    <input class = "btnForm" type="submit" value="Deletar">
+                    </form>
             </div>            
         </div>
     </div>

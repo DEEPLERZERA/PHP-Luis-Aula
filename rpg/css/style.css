@@ -75,8 +75,17 @@
     text-align: center;
 }
 
+
+.textForm2 {
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-bottom: 400px;
+}
+
 .text1 {
-    margin-top: 650px;
+    margin-top: 300px;
+    text-align: center;
 }
 
 
