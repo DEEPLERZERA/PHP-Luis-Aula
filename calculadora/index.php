@@ -17,6 +17,7 @@
                     for($i=1;$i<=2;$i++) {
                         print("<label for=''>Numero$i</label><br>");
                         print("<input type='number' name='nmbNumber$i' id=''><br>");
+                        
                     }
                 ?>
                 <br><br>

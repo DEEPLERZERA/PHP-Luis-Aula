@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Login</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class="login__container">
-        <h1 class="titulo__container">Login</h1>
-        <div class="corpo__container">
-            <label for="nome">Nome</label>
-            <input type="nome" id="nome">
-
-            <br><br>
-
-            <label for="senha">Senha</label>
-            <input type="password" id="senha">
-            <br>
-            
-            <button id="enviar">Enviar</button>
+    <div class="container">
+        <div class="divBody">
+            <form action="./php/operacao.php" method="get">
+                <label for="email">Email</label><br>
+                <input type="email" name="txtEmail" id="email"><br><br>
+                <label for="password">Senha</label><br>
+                <input type="password" name="txtPass" id="password"><br><br>
+                <input type="submit" value="Login">
+            </form>
         </div>
-    </section>
+    </div>
+    
 </body>
 </html>

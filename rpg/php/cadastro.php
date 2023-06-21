@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FICHA</title>
+    <title>CRIAR FICHA</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../image/duvida.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
-        <h1>Ficha RPG</h1>
+        <h1>Criar Ficha RPG</h1>
         <div class="centralDiv">
             <div class="formHell">                
                 <form class ="formHellPost" action="../php/personagem.php" method="post">                
@@ -19,9 +19,9 @@
                             switch ($i){
                                 case '1':
                                     echo("<label for='txtN$i'>Pontos de Vida</label>");                                    
-                                     break;
+                                    break;
                                 case '2':
-                                   echo("<label for='txtN$i'>Classe</label>");                                    
+                                    echo("<label for='txtN$i'>Classe</label>");                                    
                                     break;
                                 case '3':
                                     echo("<label for='txtN$i'>Tipo Geográfico</label>");                                    
